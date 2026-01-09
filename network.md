@@ -24,6 +24,12 @@ The proposed network design aims to meet the current and future operational need
 ## 3. Headquarters Network Design
 
 ### 3.1 Overview
+The headquarters network is designed for the Melbourne office, which serves as the central administrative and operational hub for Truelec. This site hosts critical business systems and provides services to all branch offices.
+
+A hierarchical network architecture is used, consisting of edge, core, and access layers. This design improves scalability, simplifies network management, and allows faults to be isolated more easily.
+
+The headquarters network is designed to support a large number of users, internal servers, and secure connectivity to branch offices while maintaining strong security controls.
+
 
 ### 3.2 Network Diagram
 
