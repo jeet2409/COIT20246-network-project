@@ -58,6 +58,7 @@ The Adelaide branch office network is designed to support a smaller number of st
 The branch office uses a simplified architecture consisting of an edge router, firewall, access switch, and wireless access points. Secure connectivity to the headquarters network is provided using a site-to-site VPN.
 
 ### 4.2 Network Diagram
+![Branch Office Network Diagram](diagrams/branch_network.jpg)
 
 ### 4.3 Branch Network Components
 
