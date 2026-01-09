@@ -69,6 +69,24 @@ All traffic between the branch office and headquarters is encrypted using a site
 
 
 ## 5. IP Addressing Plan
+The IP addressing scheme follows the project requirements by using only /16 and /24 subnet masks. The first octet of all IP addresses corresponds to the last two digits of the student ID (62).
+
+### Headquarters Subnets
+
+| Department | Subnet |
+|----------|--------|
+| Administration | 62.1.10.0/24 |
+| Project Management | 62.1.20.0/24 |
+| ICT | 62.2.0.0/24 |
+| Marketing | 62.4.0.0/24 |
+| Servers | 62.10.0.0/24 |
+
+### Branch Office Subnet
+
+| Location | Subnet |
+|--------|--------|
+| Adelaide Branch | 62.5.0.0/24 |
+
 
 ## 6. WiFi Design
 
