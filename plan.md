@@ -1,7 +1,7 @@
 # Project Plan – COIT20246
 
 ## Group Details
-This project is completed by group of two person.
+This project is completed by a group of two students.
 
 - Student 1: Manas Bhatt, Student ID: 12311762
 - Student 2:xxxxxx ,      Student ID: 0000000
@@ -11,7 +11,7 @@ This project is completed by group of two person.
 Effective communication is essential to ensure smooth collaboration and equal contribution throughout the project.
 
 ### Communication Methods
-- online meetings via Zoom
+- Online meetings via Zoom
 - GitHub commit messages to track progress and document decisions
 - WhatsApp messaging for quick updates and coordination
 
