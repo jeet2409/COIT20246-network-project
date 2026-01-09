@@ -36,6 +36,19 @@ The headquarters network is designed to support a large number of users, interna
 
 
 ### 3.3 Core Components and Design Decisions
+The headquarters network includes several core components to ensure security, performance, and reliability.
+
+Two edge routers are deployed to provide redundant internet connectivity. This reduces the risk of complete network outage if one router fails.
+
+A dedicated firewall is positioned between the edge routers and the internal network. The firewall enforces security policies, filters malicious traffic, and protects internal systems from external threats.
+
+The HQ core switch acts as the central switching and routing device within the headquarters network. It supports inter-VLAN routing and connects all access switches and servers.
+
+Departmental access switches connect end-user devices within each department. Logical separation of departments is achieved through VLANs, which improves security and reduces unnecessary broadcast traffic.
+
+Business-critical servers, including application, file, and authentication servers, are hosted in a dedicated server segment to allow stronger security controls and improved performance.
+
+A site-to-site VPN is implemented between the headquarters and branch office firewalls to provide secure encrypted communication over the public internet.
 
 ## 4. Branch Office Network Design
 
