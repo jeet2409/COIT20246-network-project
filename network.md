@@ -107,3 +107,6 @@ The proposed network design uses enterprise-grade hardware to ensure performance
 
 
 ## 8. Summary
+The proposed network design provides Truelec with a secure, scalable, and resilient infrastructure that meets operational requirements and supports future growth.
+
+By incorporating redundancy, secure WAN connectivity, subnet segmentation, and support for IoT and security systems, the design aligns closely with the project brief and industry best practices.
