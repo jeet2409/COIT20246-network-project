@@ -89,6 +89,10 @@ The IP addressing scheme follows the project requirements by using only /16 and 
 
 
 ## 6. WiFi Design
+Wireless connectivity is provided at both headquarters and branch offices to support mobile devices and operational requirements.
+
+The corporate wireless network uses a single SSID, "Truelec-Corp", secured using WPA3-Enterprise authentication. WiFi 6 (802.11ax) access points are deployed to provide high performance, reliability, and support for modern devices.
+
 
 ## 7. Hardware Recommendations
 
