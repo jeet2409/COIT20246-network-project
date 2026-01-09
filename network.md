@@ -53,6 +53,9 @@ A site-to-site VPN is implemented between the headquarters and branch office fir
 ## 4. Branch Office Network Design
 
 ### 4.1 Overview
+The Adelaide branch office network is designed to support a smaller number of staff while maintaining the same security principles used at headquarters.
+
+The branch office uses a simplified architecture consisting of an edge router, firewall, access switch, and wireless access points. Secure connectivity to the headquarters network is provided using a site-to-site VPN.
 
 ### 4.2 Network Diagram
 
