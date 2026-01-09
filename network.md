@@ -12,6 +12,14 @@ The project scenario does not specify all operational and technical details. The
 
 
 ## 2. Design Goals
+The proposed network design aims to meet the current and future operational needs of Truelec. The key design goals are as follows:
+
+- Provide a secure network infrastructure to protect organisational data and systems.
+- Ensure reliable connectivity for all staff at headquarters and branch offices.
+- Support both wired and wireless access for flexibility and mobility.
+- Allow for future growth without major redesign of the network.
+- Maintain a simple and manageable network structure using industry best practices.
+
 
 ## 3. Headquarters Network Design
 
