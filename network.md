@@ -95,5 +95,15 @@ The corporate wireless network uses a single SSID, "Truelec-Corp", secured using
 
 
 ## 7. Hardware Recommendations
+The proposed network design uses enterprise-grade hardware to ensure performance, reliability, and security.
+
+| Device | Purpose | Approx. Cost (AUD) |
+|------|--------|------------------|
+| Edge Router | Internet and WAN connectivity | $3,000 |
+| Firewall | Network security and VPN | $5,000 |
+| Core Switch | Central switching and routing | $4,000 |
+| Access Switch | End-user connectivity | $1,500 |
+| Wireless AP | Secure wireless access | $800 |
+
 
 ## 8. Summary
