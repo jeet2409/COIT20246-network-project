@@ -42,9 +42,9 @@ Two edge routers are deployed to provide redundant internet connectivity. This r
 
 A dedicated firewall is positioned between the edge routers and the internal network. The firewall enforces security policies, filters malicious traffic, and protects internal systems from external threats.
 
-The HQ core switch acts as the central switching and routing device within the headquarters network. It supports inter-VLAN routing and connects all access switches and servers.
+The HQ core switch acts as the central switching and routing device within the headquarters network. It supports inter-subnet routing and connects all access switches and servers.
 
-Departmental access switches connect end-user devices within each department. Logical separation of departments is achieved through VLANs, which improves security and reduces unnecessary broadcast traffic.
+Departmental access switches connect end-user devices within each department. Logical separation of departments is achieved through the use of dedicated IP subnets, which improves security and reduces unnecessary broadcast traffic.
 
 Business-critical servers, including application, file, and authentication servers, are hosted in a dedicated server segment to allow stronger security controls and improved performance.
 
@@ -66,6 +66,10 @@ The branch office network includes a branch edge router and firewall to provide 
 A branch switch connects wired devices such as desktop computers and local servers. Wireless access points provide WiFi connectivity for mobile devices and operational staff.
 
 All traffic between the branch office and headquarters is encrypted using a site-to-site VPN, ensuring data confidentiality and integrity.
+
+Redundancy is incorporated into the branch office design through an alternative WAN connection. This ensures the branch remains connected to headquarters in the event of a primary link or router failure.
+
+The branch office network also supports operational and security technologies, including CCTV cameras, IoT sensors, and RFID-based access control systems. These devices are connected to the internal network to enable site monitoring, asset tracking, and secure access management.
 
 
 ## 5. IP Addressing Plan
