@@ -32,6 +32,8 @@ The headquarters network is designed to support a large number of users, interna
 
 
 ### 3.2 Network Diagram
+![Headquarters Network Diagram](diagrams/HQ_network.png)
+
 
 ### 3.3 Core Components and Design Decisions
 
