@@ -61,6 +61,12 @@ The branch office uses a simplified architecture consisting of an edge router, f
 ![Branch Office Network Diagram](diagrams/branch_network.jpg)
 
 ### 4.3 Branch Network Components
+The branch office network includes a branch edge router and firewall to provide secure internet access and protect internal devices.
+
+A branch switch connects wired devices such as desktop computers and local servers. Wireless access points provide WiFi connectivity for mobile devices and operational staff.
+
+All traffic between the branch office and headquarters is encrypted using a site-to-site VPN, ensuring data confidentiality and integrity.
+
 
 ## 5. IP Addressing Plan
 
